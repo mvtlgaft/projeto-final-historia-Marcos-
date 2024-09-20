@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>EM BUSCA DO REINO PERDIDO</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>EM UM DIA DE AULA, NA BIBLIOTECA HAVIA UM LIVRO, DENTRO DE UM DOS LIVROS AVIA UMA CARTA, ESCONDENDO UMA BELAZA NATURAL DE UM REINO. NESSA CARTA, aSE ENCONTRA PISTAS E DECIDI SEGUIR SEUS PASSOS</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>VOCÊ COMEÇA SUA JORNADA NO RIO DE JANEIRO ,SUBINDO O PICO DO MORRO AO AMNHECER PARA ENCONTRAR UMAS DAS DIVERSAS PISTAS.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>EM PERNAMBUCO, VOCÊ VISITA OLINDA. NA CARTA A UMA PISTA QUE VOCÊ DEVERIA PROCURAR POR UM DOS PRINCIPAIS PONTOS TURISTICOS POR QUAL VOCÊ COMEÇA?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>NO TOPO DO PICO, VOCÊ ENCONTRA UM PROXIMA PISTA QUE SE LOCALIZADA 
+                NO AMAZANOS ENTAO VOCÊ?</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>EM UM DESCES PONTOS TURISTICOS, VOCÊ DESCOBRE UM MAPA QUE LEVAVA AO REINO ANTIGO, APONTANDO QUE EA PROXIMA PISTA ESTA 
+                 NO AMAZONAS.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>ANDANDO NAS PRAIS, VOCÊ ENCONTRA UM BURACO, MAS ERA SEM SAIDA.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>ANDANDO PELO AMAZONAS. VOCÊ SE DEPARA COM UM RIO.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>DE VOLTA AO PONTO TURISTICO VOCÊ ENCONTRA O MAPA ANTIGO , DE VOLTA A AMAZONAS</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A SEGUIR A ESQUERDA VOCÊ ENCONTRA GRAVURAS QUE TUDO INDICA AO REINO ANTIGO.
+                </p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>A SEGUIR A DIREITA VOCÊ SE DEPRA COM UM PICO COM UMA VISTA INCRIVEL MAIS SEM SINAIS DE REINO PERDIDO.
+                </p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>DENTRO DO REINO VOCÊ DESCOBRE TESOUROS, MAPAS, ESPADAS, ESQUELETOS E MUITO MAIS , DECIDINDO ESTUDAR E PRESERVAR O LUGAR
+                </p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>RETORNANDO PARA O RIO E SEGUINDO O LADO ESQUERDO VOCÊ SE DEPARA COM GRAVURAS E ACHA FINALMENTE O REINO PERDIDO
+                </p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
